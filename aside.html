@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .aside ul{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-left: 20px;
+        
+    }
+    
+    .aside img{
+        height: 100%;
+        width: 100%;
+        position:absolute;
+        bottom:10px;
+        opacity: 0.8;
+    }
+    .aside h2{
+        position: relative;
+        z-index: 100;
+        margin-left: 20px;
+        font-size: 36px;
+        z-index: 110;
+    }
+    .aside ul li{
+        position: relative;
+        z-index: 100;
+        list-style: none;
+        font-weight: 600;
+        font-size: 25px;
+        z-index: 110;
+        
+    
+    }
+    .aside .opaque{
+        background-color: black; 
+        height:100vh;
+        width: 100vw;
+        position: absolute;
+        bottom: 10px;
+    }
+    </style>
+</head>
+<body>
+    <div class="aside">
+        <div class="opaque"></div>
+        <img src="asidebg.png" alt="">
+        <h2>Categories(Click to buy):</h2>
+        <ul>
+            <li><a href="https://thecomicbookstore.in/" target="main">Comics</a></li>
+            <li><a href="https://lithub.com/the-20-best-novels-of-the-decade/" target="main">Novels</a></li>
+            <li><a href="https://mysubs.in/category/magazine-subscription" target="main">Magzines</a></li>
+            <li><a href="https://flippa.com/buy/sitetype/blog" target="main">Blogs</a></li>
+            <li><a href="https://www.meesho.com/diaries/pl/97n" target="main">Diary</a></li>
+            <li><a href="https://www.oddgiraffe.com/collections/notebooks" target="main">Notebook</a></li>
+        </ul>
+    </div>
+</body>
+</html>
